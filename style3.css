@@ -1,0 +1,85 @@
+body{
+    width: 50%;
+    background-color: black;
+    color: white;
+    margin:50px auto;
+}
+
+
+div{
+    padding: 40px 0;
+    
+    text-align: center;
+    background-color: gray;
+
+}
+button{padding: 40px 0;
+    
+    text-align: center;
+    
+}
+
+
+div:hover{
+    background-color: lightgray;
+}
+
+
+#container{
+
+ 
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: (4,1fr);
+ }
+
+ #un{ grid-row: 1; grid-column: 1; 
+
+ }
+ #deux{ grid-row: 1; grid-column: 2; 
+
+ }
+ #trois{ grid-row: 1; grid-column: 3; 
+
+ }
+ #katre{ grid-row: 2; grid-column: 1; 
+
+ }
+ #cinq{ grid-row: 2; grid-column: 2; 
+
+ }
+ #six{ grid-row: 2; grid-column: 3; 
+
+ }
+ #sept{ grid-row: 3; grid-column: 1; 
+
+ }
+ #huit{ grid-row: 3; grid-column: 2; 
+
+ }
+ #neuf{ grid-row: 3; grid-column: 3; 
+
+ }
+ #dix{ grid-row: 3; grid-column: 4; 
+ }
+ #plus{ grid-row: 4; grid-column: 1; 
+
+ }
+ #moins{ grid-row: 4; grid-column: 2; 
+
+ }
+ #diviser{ grid-row: 4; grid-column: 3; 
+
+ }
+ #egale{ grid-row: 4; grid-column: 4; 
+
+ }
+
+ #Clear{ grid-row: 1 ; grid-column:4; background-color: red;    }
+
+ input{
+    height: 40px;
+    width: 50%;
+ }
+
